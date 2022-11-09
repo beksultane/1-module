@@ -7,4 +7,51 @@ body {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__linksbar {
+  display: flex;
+  gap: 40px;
+}
+.nav__linksbar_link {
+  color: #4F5665;
+  transition: 0.5s;
+}
+.nav__linksbar_link:hover {
+  color: #1a1919;
+  border-bottom: 1px solid #1a1919;
+}
+.nav__button_txt {
+  color: #0B132A;
+  padding-right: 30px;
+}
+.nav__button_btn {
+  color: #F53838;
+  padding: 12px 40px;
+  border: 1px solid #F53838;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.nav__button_btn:hover {
+  background: #F53838;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */

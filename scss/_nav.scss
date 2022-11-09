@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__linksbar {
+    display: flex;
+    gap: 40px;
+
+    &_link {
+      color: $text-color;
+      transition: 0.5s;
+
+      &:hover {
+        color: #1a1919;
+        border-bottom: 1px solid #1a1919;
+      }
+    }
+  }
+
+  &__button {
+    &_txt {
+      color: #0B132A;
+      padding-right: 30px;
+    }
+
+    &_btn {
+      color: $btn-color;
+      padding: 12px 40px;
+      border: 1px solid $btn-color;
+      border-radius: 30px;
+      transition: 0.40s;
+
+      &:hover {
+        background: $btn-color;
+        color: #fff;
+      }
+    }
+  }
+}
