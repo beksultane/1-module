@@ -291,4 +291,51 @@ li {
   font-weight: bold;
 }
 
+.about-info {
+  min-height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+  box-shadow: 0px 4px 12px rgba(13, 16, 37, 0.2509803922);
+  border-radius: 10px;
+}
+.about-info__users {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.about-info__users_img {
+  padding: 15px;
+  border-radius: 50%;
+  background: #ffd5d5;
+}
+.about-info__users_txt {
+  margin: 0;
+  font-weight: 700;
+  color: #0B132A;
+  font-size: 25px;
+  padding-bottom: 6px;
+}
+.about-info__users_txts {
+  margin: 0;
+  font-size: 18px;
+  color: #4F5665;
+}
+.about-info__locations {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.about-info__servers {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.line {
+  border-left: 2px solid #B6B6B6;
+  height: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */
