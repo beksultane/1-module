@@ -327,15 +327,89 @@ li {
   align-items: center;
   gap: 30px;
 }
+.about-info__locations_img {
+  padding: 15px;
+  border-radius: 50%;
+  background: #ffd5d5;
+}
 .about-info__servers {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-
-.line {
+.about-info__servers_img {
+  padding: 15px;
+  border-radius: 50%;
+  background: #ffd5d5;
+}
+.about-info__line {
   border-left: 2px solid #B6B6B6;
   height: 100px;
+}
+@media (max-width: 1170px) {
+  .about-info {
+    justify-content: space-around;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .about-info__users_txt {
+    font-size: 22px;
+  }
+  .about-info__users_txts {
+    font-size: 16px;
+  }
+}
+@media (max-width: 785px) {
+  .about-info {
+    justify-content: space-around;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .about-info__users_txt {
+    font-size: 22px;
+  }
+  .about-info__users_txts {
+    font-size: 16px;
+  }
+}
+@media (max-width: 440px) {
+  .about-info {
+    width: 400px;
+    min-height: 100px;
+  }
+  .about-info__users {
+    gap: 5px;
+  }
+  .about-info__users_img {
+    width: 40%;
+    padding: 8px;
+  }
+  .about-info__users_txt {
+    font-size: 16px;
+    padding: 0;
+  }
+  .about-info__users_txts {
+    font-size: 12px;
+  }
+  .about-info__locations {
+    gap: 5px;
+  }
+  .about-info__locations_img {
+    width: 30%;
+    padding: 8px;
+  }
+  .about-info__servers {
+    gap: 5px;
+  }
+  .about-info__servers_img {
+    width: 36%;
+    padding: 8px;
+  }
+  .about-info__line {
+    height: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
