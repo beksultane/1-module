@@ -1,0 +1,95 @@
+.block {
+  background: #FBFBFB;
+
+  &__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: $f-weiht5;
+    color: $title-txt;
+    margin: 85px 0 20px 0;
+  }
+  &__text {
+    text-align: center;
+    line-height: 30px;
+    color: $text-color;
+  }
+}
+
+.plan-selection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+
+  &_card {
+    background: #fff;
+    padding: 80px 70px 50px;
+    border: 2.70px solid #acacac;
+    border-radius: 10px;
+    transition: 0.40s;
+  }
+  
+  &_img {
+    padding-left: 21px;
+  }
+  &_title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: $f-weiht5;
+    color: $title-txt;
+  }
+
+  &__texts {
+    padding: 0;
+
+    li {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+      color: $text-color;
+    }
+  }
+
+  &_buy {
+    margin-bottom: 50px;
+    padding-top: 120px;
+  }
+
+  &_txt {
+    text-align: center;
+    font-size: 25px;
+    font-weight: $f-weiht5;
+    color: $title-txt;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  &_btn {
+    margin-left: 4px;
+    color: $btn-color;
+    font-weight: $f-weiht7;
+    padding: 13px 60px;
+    border: 2px solid $btn-color;
+    border-radius: 30px;
+    transition: 0.40s;
+  }
+}
+
+.plan-selection_card:hover {
+  border: 2.5px solid $btn-color; 
+}
+.plan-selection_card:hover  .plan-selection_btn{
+  background: $btn-color;
+  color: #fff;
+  box-shadow: $box-shadow;
+}
+
+.moot {
+  color: $text-color;
+  font-weight: normal;
+}
+
+.buy-2 {
+  padding-top: 76px;
+}
+.buy-3 {
+  padding-top: 31px;
+}

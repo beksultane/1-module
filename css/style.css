@@ -416,6 +416,7 @@ li {
   display: flex;
   gap: 30px;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 .features li {
   display: flex;
@@ -475,6 +476,97 @@ li {
     padding: 0 15px;
     text-align: center;
   }
+}
+
+.block {
+  background: #FBFBFB;
+}
+.block__title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  color: #0B132A;
+  margin: 85px 0 20px 0;
+}
+.block__text {
+  text-align: center;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.plan-selection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+.plan-selection_card {
+  background: #fff;
+  padding: 80px 70px 50px;
+  border: 2.7px solid #acacac;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.plan-selection_img {
+  padding-left: 21px;
+}
+.plan-selection_title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0B132A;
+}
+.plan-selection__texts {
+  padding: 0;
+}
+.plan-selection__texts li {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #4F5665;
+}
+.plan-selection_buy {
+  margin-bottom: 50px;
+  padding-top: 120px;
+}
+.plan-selection_txt {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #0B132A;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.plan-selection_btn {
+  margin-left: 4px;
+  color: #F53838;
+  font-weight: 700;
+  padding: 13px 60px;
+  border: 2px solid #F53838;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.plan-selection_card:hover {
+  border: 2.5px solid #F53838;
+}
+
+.plan-selection_card:hover .plan-selection_btn {
+  background: #F53838;
+  color: #fff;
+  box-shadow: 0px 5px 6px rgba(245, 56, 56, 0.5019607843);
+}
+
+.moot {
+  color: #4F5665;
+  font-weight: normal;
+}
+
+.buy-2 {
+  padding-top: 76px;
+}
+
+.buy-3 {
+  padding-top: 31px;
 }
 
 /*# sourceMappingURL=style.css.map */
