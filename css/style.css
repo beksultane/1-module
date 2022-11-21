@@ -125,6 +125,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 .nav__linksbar {
   display: flex;
@@ -635,6 +636,25 @@ li {
     font-size: 14px;
     padding: 0;
   }
+}
+
+.block-customer {
+  margin-top: 50px;
+}
+.block-customer__title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 55px;
+  color: #0B132A;
+  margin: 0;
+  padding: 0 30%;
+}
+.block-customer__text {
+  text-align: center;
+  color: #4F5665;
+  line-height: 30px;
+  padding: 0 28%;
 }
 
 /*# sourceMappingURL=style.css.map */

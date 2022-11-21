@@ -162,3 +162,23 @@
     }
   }
 }
+
+
+.block-customer {
+  margin-top: 50px;
+  &__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: $f-weiht5;
+    line-height: 55px;
+    color: $title-txt;
+    margin: 0;
+    padding: 0 30%;
+  }
+  &__text {
+    text-align: center;
+    color: $text-color;
+    line-height: 30px;
+    padding: 0 28%;
+  }
+}
