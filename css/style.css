@@ -545,6 +545,14 @@ li {
   border-radius: 30px;
   transition: 0.4s;
 }
+@media (max-width: 1170px) {
+  .plan-selection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+}
 
 .plan-selection_card:hover {
   border: 2.5px solid #F53838;
