@@ -181,4 +181,88 @@
     line-height: 30px;
     padding: 0 28%;
   }
+
+  &__card {
+    display: flex;
+    gap: 50px;
+    margin-top: 65px;
+    
+    &_card-1 {
+      padding: 30px;
+      border: 2px solid #DDDDDD;
+      border-radius: 10px;
+      transition: 0.5s;
+
+      &:hover {
+        border: 2px solid $btn-color;
+      }
+    }
+
+    &_info {
+      display: flex;
+      align-items: center;
+      // gap: 21px;
+
+      img {
+        padding-right: 20px;
+      }
+
+      &_name {
+        padding-right: 5%;
+      }
+    }
+    
+  }
+}
+
+.n1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: $f-weiht5;
+  color: $title-txt;
+}
+.n2 {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 14px;
+  color: $text-color;
+}
+
+.grade {
+  margin: 0 10px;
+}
+
+.scrol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+
+  &__flex {
+    display: flex;
+    gap: 10px;
+  }
+}
+.red {
+  padding: 6px 20px;
+  background: $btn-color;
+  border-radius: 6px;
+}
+.circle {
+  padding: 6px;
+  background: #dbdbdb;
+  border-radius: 50%;
+}
+.button-circle {
+  &_img1 {
+    padding: 15px;
+    border: 2px solid $btn-color;
+    border-radius: 50%;
+  }
+  &_img2 {
+    margin-left: 10px;
+    padding: 18px;
+    background: $btn-color;
+    border-radius: 50%;
+  }
 }
