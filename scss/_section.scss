@@ -212,6 +212,44 @@
       }
     }
     
+
+    @media (max-width: 1170px) {
+      flex-direction: column;
+      margin: 0 90px;
+    }
+
+    @media (max-width: 440px) {
+      margin: 0 50px;
+      &_info {
+        &_name {
+          .n1 {
+            font-size: 12px;
+          }
+          .n2 {
+            font-size: 10px;
+          }
+        }
+      }
+      &_texts {
+        font-size: 14px;
+      }
+
+      .grade {
+        font-size: 12px;
+        margin: 0;
+      }
+    }
+  }
+
+  @media (max-width: 440px) {
+    &__title {
+      font-size: 28px;
+      padding: 0 10px;
+    }
+    &__text {
+      font-size: 14px;
+      padding: 0 10px;
+    }
   }
 }
 
@@ -242,6 +280,15 @@
     display: flex;
     gap: 10px;
   }
+
+  @media (max-width: 1170px) {
+    margin: 50px 60px 0;
+  }
+
+  @media (max-width: 440px) {
+    justify-content: space-around;
+    margin-top: 30px;
+  }
 }
 .red {
   padding: 6px 20px;
@@ -264,5 +311,15 @@
     padding: 18px;
     background: $btn-color;
     border-radius: 50%;
+  }
+
+  @media (max-width: 440px) {
+    &_img1 {
+      padding: 10px;
+    }
+    &_img2 {
+      margin-left: 5px;
+      padding: 12px;
+    }
   }
 }

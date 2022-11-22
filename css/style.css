@@ -680,6 +680,40 @@ li {
 .block-customer__card_info_name {
   padding-right: 5%;
 }
+@media (max-width: 1170px) {
+  .block-customer__card {
+    flex-direction: column;
+    margin: 0 90px;
+  }
+}
+@media (max-width: 440px) {
+  .block-customer__card {
+    margin: 0 50px;
+  }
+  .block-customer__card_info_name .n1 {
+    font-size: 12px;
+  }
+  .block-customer__card_info_name .n2 {
+    font-size: 10px;
+  }
+  .block-customer__card_texts {
+    font-size: 14px;
+  }
+  .block-customer__card .grade {
+    font-size: 12px;
+    margin: 0;
+  }
+}
+@media (max-width: 440px) {
+  .block-customer__title {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+  .block-customer__text {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
 
 .n1 {
   margin: 0;
@@ -709,6 +743,17 @@ li {
   display: flex;
   gap: 10px;
 }
+@media (max-width: 1170px) {
+  .scrol {
+    margin: 50px 60px 0;
+  }
+}
+@media (max-width: 440px) {
+  .scrol {
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+}
 
 .red {
   padding: 6px 20px;
@@ -732,6 +777,15 @@ li {
   padding: 18px;
   background: #F53838;
   border-radius: 50%;
+}
+@media (max-width: 440px) {
+  .button-circle_img1 {
+    padding: 10px;
+  }
+  .button-circle_img2 {
+    margin-left: 5px;
+    padding: 12px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
