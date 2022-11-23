@@ -334,11 +334,16 @@
 }
 
 
+.container1 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
 .block-subscribe {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 70px;
+  padding: 50px 70px;
   background: #FFFFFF;
   border-radius: 10px;
   box-shadow: 0px 7px 10px -4px #000;

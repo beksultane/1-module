@@ -1,0 +1,11 @@
+.footer {
+  background: #F8F8F8;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  &__col {
+    display: flex;
+  }
+}
