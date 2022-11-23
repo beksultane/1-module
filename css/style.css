@@ -803,5 +803,36 @@ li {
     padding: 5px;
   }
 }
+.block-subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 70px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 7px 10px -4px #000;
+}
+.block-subscribe__title {
+  font-size: 35px;
+  font-weight: 500;
+  color: #0B132A;
+  margin: 0;
+  padding-right: 45%;
+  line-height: 45px;
+}
+.block-subscribe__text {
+  color: #4F5665;
+}
+.block-subscribe__btn {
+  padding: 17px 55px;
+  background: #F53838;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.4s;
+}
+.block-subscribe__btn:hover {
+  box-shadow: 0px 5px 6px rgba(245, 56, 56, 0.5019607843);
+}
 
 /*# sourceMappingURL=style.css.map */
