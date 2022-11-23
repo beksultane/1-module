@@ -270,8 +270,12 @@
       &_title {
         text-align: center;
       }
+      &_txt {
+        padding: 0 25px;
+        text-align: center;
+      }
       &_choice {
-        padding: 0;
+        padding-left: 32%;
       }
     }
   }
@@ -281,7 +285,7 @@
     align-items: center;
 
     li {
-      padding-left: 7.5rem;
+      padding-left: 6.875rem;
     }
 
     &__img {
@@ -296,6 +300,9 @@
       &_txt {
         padding: 0 15px;
         text-align: center;
+      }
+      &_choice {
+        padding: 0;
       }
     }
   }

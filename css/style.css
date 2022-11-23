@@ -454,8 +454,12 @@ li {
   .features__info_title {
     text-align: center;
   }
+  .features__info_txt {
+    padding: 0 25px;
+    text-align: center;
+  }
   .features__info_choice {
-    padding: 0;
+    padding-left: 32%;
   }
 }
 @media (max-width: 440px) {
@@ -464,7 +468,7 @@ li {
     align-items: center;
   }
   .features li {
-    padding-left: 7.5rem;
+    padding-left: 6.875rem;
   }
   .features__img {
     width: 80%;
@@ -476,6 +480,9 @@ li {
   .features__info_txt {
     padding: 0 15px;
     text-align: center;
+  }
+  .features__info_choice {
+    padding: 0;
   }
 }
 
@@ -750,7 +757,7 @@ li {
 }
 @media (max-width: 440px) {
   .scrol {
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 30px;
   }
 }
@@ -785,6 +792,15 @@ li {
   .button-circle_img2 {
     margin-left: 5px;
     padding: 12px;
+  }
+}
+
+@media (max-width: 440px) {
+  .red {
+    padding: 1px 10px;
+  }
+  .circle {
+    padding: 5px;
   }
 }
 

@@ -286,7 +286,7 @@
   }
 
   @media (max-width: 440px) {
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 30px;
   }
 }
@@ -321,5 +321,14 @@
       margin-left: 5px;
       padding: 12px;
     }
+  }
+}
+
+@media (max-width: 440px) {
+  .red {
+    padding: 1px 10px;
+  }
+  .circle {
+    padding: 5px;
   }
 }
