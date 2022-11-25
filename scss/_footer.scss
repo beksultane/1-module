@@ -4,8 +4,57 @@
 .flex {
   display: flex;
   justify-content: space-between;
+  margin-top: 16%;
+
+  &__col-1 {
+    &_texts {
+      color: $text-color;
+      padding-right: 46%;
+      line-height: 30px;
+    }
+    &_weight {
+      font-weight: $f-weiht5;
+    }
+
+    &_ul {
+      display: flex;
+      gap: 20px;
+      padding: 0;
+    }
+    &_border {
+      padding-top: 5px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px #0000004b;
+    }
+    &_link1 {
+      padding: 15px 25px;
+    }
+    &_link2 {
+      padding: 15px 20px;
+    }
+    &_link3 {
+      padding: 15px 21px;
+    }
+
+    &_text {
+      margin-top: 30px;
+      color: #AFB5C0;
+    }
+  }
 
   &__col {
-    display: flex;
+    h6 {
+      font-size: 18px;
+      font-weight: $f-weiht5;
+      color: $title-txt;
+      margin: 0 0 20px 0 ;
+    }
+    li {
+      padding-bottom: 15px;
+    }
+    &_link {
+      color: $text-color;
+    }
   }
 }
