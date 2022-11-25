@@ -350,7 +350,7 @@ li {
 @media (max-width: 1170px) {
   .about-info {
     justify-content: space-around;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     margin-top: 10%;
   }
@@ -364,7 +364,6 @@ li {
 @media (max-width: 785px) {
   .about-info {
     justify-content: space-around;
-    width: 700px;
     margin: 0 auto;
     margin-top: 10%;
   }
@@ -377,7 +376,6 @@ li {
 }
 @media (max-width: 440px) {
   .about-info {
-    width: 400px;
     min-height: 100px;
   }
   .about-info__users {
