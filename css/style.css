@@ -882,6 +882,9 @@ li {
   margin-top: 30px;
   color: #AFB5C0;
 }
+.flex__col {
+  padding: 0;
+}
 .flex__col h6 {
   font-size: 18px;
   font-weight: 500;
