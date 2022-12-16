@@ -360,7 +360,7 @@
     color: $text-color;
   }
   &__btn {
-    padding: 17px 55px;
+    padding: 20px 55px;
     background: #F53838;
     border-radius: 8px;
     font-weight: 700;
@@ -369,6 +369,54 @@
 
     &:hover {
       box-shadow: $box-shadow;
+    }
+  }
+
+  @media (max-width: 1170px) {
+    max-width: 900px;
+    margin: 0 auto;
+
+    &__title {
+      font-size: 28px;
+      line-height: 38px;
+    }
+
+    &__btn {
+      padding: 20px 50px;
+    }
+  }
+
+  @media (max-width: 920px) {
+    max-width: 700px;
+    padding: 45px 40px;
+
+    &__title {
+      font-size: 22px;
+      padding-right: 10%;
+    }
+
+    &__btn {
+      padding: 20px 36px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    max-width: 500px;
+    padding: 40px 15px;
+
+    &__title {
+      font-size: 18px;
+      padding-right: 5%;
+      line-height: 25px;
+    }
+
+    &__text {
+      font-size: 12px;
+    }
+
+    &__btn {
+      font-size: 12px;
+      padding: 18px 16px;
     }
   }
 }
