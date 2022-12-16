@@ -808,6 +808,7 @@ li {
 }
 
 .block-subscribe {
+  margin-top: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
